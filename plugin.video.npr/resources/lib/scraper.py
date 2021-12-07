@@ -185,7 +185,7 @@ class myAddon(t1mAddon):
          name = b["title"]
          thumb = b.get("image")
          fanart = thumb
-         infoList = {'mediatype': 'musicvideos',
+         infoList = {'mediatype': 'musicvideo',
                      'Title': name,
                      'Plot': b["summary"]}
          if b["id"] == '761983313':   # playlist
